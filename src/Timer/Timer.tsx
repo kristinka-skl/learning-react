@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+
 import css from "./Timer.module.css";
 
 export default function Timer() {

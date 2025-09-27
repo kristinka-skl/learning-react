@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import css from "./Effects.module.css";
+interface User {
+  name: string;
+  gender: string;
+}
 export default function Abb() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<User | null>(null);
   const [clicks, setClicks] = useState(1);
   useEffect(() => {
     axios
