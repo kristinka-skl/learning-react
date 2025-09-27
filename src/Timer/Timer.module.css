@@ -1,0 +1,9 @@
+.timer {
+    font-size: 32px;
+    color: blueviolet;
+    padding: 12px;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(133, 36, 101, 0.16);
+    max-width: fit-content;
+}

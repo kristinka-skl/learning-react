@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  width: 800px;
+  margin: 0 auto 8px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 12px 24px;
+  background-color: #fffff9;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(133, 36, 101, 0.16);
+}
+
+.button {
+  padding: 10px 22px;
+  background-color: #ac3abb;
+  color: #fff;
+  border: 1px solid #ac3abb;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  min-width: 120px;
+}
+
+.button:hover {
+  background-color: #591e61;
+  border-color: #591e61;
+}

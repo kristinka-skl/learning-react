@@ -1,0 +1,34 @@
+.articleList {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.articleCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 24px * 2) / 3);
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(133, 36, 101, 0.16);
+    padding: 12px 8px;
+    transition: transform 250ms ease-in-out;
+}
+
+.articleCard:hover,
+.articleCard:focus {
+    transform: scale(1.05);
+}
+
+a {
+    color: #ac3abb;
+    transition: color 250ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: #561d5e;
+}

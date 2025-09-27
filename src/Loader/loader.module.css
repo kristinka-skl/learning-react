@@ -1,0 +1,49 @@
+.loader {
+    width: 28px;
+    padding: 12px auto 12px auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #E3AAD6;
+    transform-origin: top;
+    display: grid;
+    animation: l3-0 1s infinite linear;
+    margin: 0 auto;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    grid-area: 1/1;
+    background: #ac3abb;
+    border-radius: 50%;
+    transform-origin: top;
+    animation: inherit;
+    animation-name: l3-1;
+}
+
+.loader::after {
+    background: #5a0340;
+    --s: 180deg;
+}
+
+@keyframes l3-0 {
+
+    0%,
+    20% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes l3-1 {
+    50% {
+        transform: rotate(var(--s, 90deg))
+    }
+
+    100% {
+        transform: rotate(0)
+    }
+}

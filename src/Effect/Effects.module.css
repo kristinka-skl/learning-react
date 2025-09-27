@@ -1,0 +1,22 @@
+.name {
+    font-size: 32px;
+    color: #ac3abb;
+}
+
+.button {
+    padding: 10px 22px;
+    background-color: #ac3abb;
+    color: #fff;
+    border: 1px solid #ac3abb;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    min-width: 120px;
+}
+
+.button:hover {
+    background-color: #591e61;
+    border-color: #591e61;
+}
